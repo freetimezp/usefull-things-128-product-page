@@ -5,13 +5,93 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css" />
+
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Project</title>
 </head>
 
 <body>
-    start
+    <div class="nav">
+        <div class="btn-group">
+            <button><i class="ph ph-arrow-circle-left"></i> drop 4</button>
+            <button><i class="ph ph-arrow-circle-down"></i> sizing chart</button>
+        </div>
+        <div class="btn-group">
+            <button class="active">usd</button>
+            <button>bag</button>
+        </div>
+    </div>
 
+    <div class="page-content">
+        <div class="col product-img">
+            <div class="product-img-wrapper">
+                <img src="./assets/images/1.png" alt="">
+            </div>
+        </div>
+        <div class="col product-copy">
+            <div class="product-details">
+                <p data-text="02 suit">02 suit</p>
+                <br>
+                <p class="price">$129</p>
+                <br>
+                <p>- description 1</p>
+                <p>- description 2</p>
+                <p>- description 3</p>
+                <p>- description 4</p>
+                <p>- description 5</p>
+                <p>- description 6</p>
+                <p>- description 7</p>
+            </div>
+
+            <div class="product-vars">
+                <img src="./assets/images/img-1.png" alt="">
+                <img src="./assets/images/img-2.png" alt="">
+                <img src="./assets/images/img-3.png" alt="">
+            </div>
+
+            <div class="sizes">
+                <div class="size">XXS</div>
+                <div class="size">XS</div>
+                <div class="size">S</div>
+                <div class="size">M</div>
+                <div class="size active">L</div>
+                <div class="size">XL</div>
+                <div class="size">XXL</div>
+            </div>
+
+            <button class="size-btn">
+                select your size <i class="ph ph-arrow-circle-right"></i>
+            </button>
+
+            <div class="other-products">
+                <div class="product">
+                    <img src="./assets/images/product-1.png" alt="">
+                    <p>Lorem ipsum dolor 1.</p>
+                </div>
+                <div class="product">
+                    <img src="./assets/images/product-2.png" alt="">
+                    <p>Lorem ipsum dolor 2.</p>
+                </div>
+                <div class="product">
+                    <img src="./assets/images/product-3.png" alt="">
+                    <p>Lorem ipsum dolor 3.</p>
+                </div>
+                <div class="product">
+                    <img src="./assets/images/product-4.png" alt="">
+                    <p>Lorem ipsum dolor 4.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/gsap.min.js"></script>
     <script src="./assets/js/main.js"></script>
 </body>
 
