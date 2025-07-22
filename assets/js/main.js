@@ -1,4 +1,3 @@
-
 document.addEventListener("DOMContentLoaded", function () {
     const productCopy = document.querySelector(".product-copy");
     const productImg = document.querySelector(".product-img img");
@@ -8,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
         let currentSegment = Math.floor(window.scrollY / segmentHeight) + 1;
         currentSegment = Math.min(9, Math.max(1, currentSegment));
 
-        productImg.src = "./assets/images/" + currentSegment + ".png";
+        productImg.src = "./assets/images/" + currentSegment + ".jpg";
     });
 });
 
@@ -59,25 +58,23 @@ document.addEventListener("DOMContentLoaded", function () {
 
     setInitialDataTextAttribute();
 
-
     const paragraphs = document.querySelectorAll("p[data-text]");
     paragraphs.forEach((p) => {
         revealText(p);
     });
 });
 
-
 gsap.from(".nav", {
     duration: 0.5,
     y: -50,
-    delay: 0
+    delay: 0,
 });
 
 gsap.from(".product-img", {
     duration: 0.5,
     x: -300,
     opacity: 0,
-    delay: 0.5
+    delay: 0.5,
 });
 
 gsap.from(".product-vars img", {
@@ -85,7 +82,7 @@ gsap.from(".product-vars img", {
     y: 50,
     opacity: 0,
     stagger: 0.2,
-    delay: 0.75
+    delay: 0.75,
 });
 
 gsap.from(".sizes .size", {
@@ -93,40 +90,19 @@ gsap.from(".sizes .size", {
     scale: 0,
     opacity: 0.1,
     stagger: 0.125,
-    delay: 1
+    delay: 1,
 });
 
 gsap.from(".size-btn", {
     duration: 0.4,
     scale: 0,
-    delay: 1.25
+    delay: 1.25,
 });
 
 gsap.from(".product", {
-    duation: 0.5,
+    duration: 0.5,
     y: 100,
     opacity: 0,
     stagger: 0.25,
-    delay: 1.5
+    delay: 1.5,
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

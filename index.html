@@ -1,98 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
+        />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"
+        />
 
-    <link rel="stylesheet" type="text/css"
-        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
-    <link rel="stylesheet" type="text/css"
-        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <title>Project</title>
+    </head>
 
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Project</title>
-</head>
-
-<body>
-    <div class="nav">
-        <div class="btn-group">
-            <button><i class="ph ph-arrow-circle-left"></i> drop 4</button>
-            <button><i class="ph ph-arrow-circle-down"></i> sizing chart</button>
-        </div>
-        <div class="btn-group">
-            <button class="active">usd</button>
-            <button>bag</button>
-        </div>
-    </div>
-
-    <div class="page-content">
-        <div class="col product-img">
-            <div class="product-img-wrapper">
-                <img src="./assets/images/1.png" alt="">
+    <body>
+        <div class="nav">
+            <div class="btn-group">
+                <button><i class="ph ph-arrow-circle-left"></i> Catalog 08</button>
+                <button><i class="ph ph-arrow-circle-down"></i> sizing chart</button>
+            </div>
+            <div class="btn-group">
+                <button class="active">usd</button>
+                <button>cart</button>
             </div>
         </div>
-        <div class="col product-copy">
-            <div class="product-details">
-                <p data-text="02 suit title">02 suit title</p>
-                <br>
-                <p class="price">$129</p>
-                <br>
-                <p>- description text 1</p>
-                <p>- description text 2</p>
-                <p>- description text 3</p>
-                <p>- description text 4</p>
-                <p>- description text 5</p>
-                <p>- description text 6</p>
-                <p>- description text 7</p>
+
+        <div class="page-content">
+            <div class="video-bg">
+                <video loop muted autoplay>
+                    <source src="./assets/videos/bg.mp4" />
+                </video>
             </div>
 
-            <div class="product-vars">
-                <img src="./assets/images/img-1.png" alt="">
-                <img src="./assets/images/img-2.png" alt="">
-                <img src="./assets/images/img-3.png" alt="">
+            <div class="col product-img">
+                <div class="product-img-wrapper js-clip-target">
+                    <img src="./assets/images/1.jpg" alt="" />
+                </div>
             </div>
-
-            <div class="sizes">
-                <div class="size">XXS</div>
-                <div class="size">XS</div>
-                <div class="size">S</div>
-                <div class="size">M</div>
-                <div class="size active">L</div>
-                <div class="size">XL</div>
-                <div class="size">XXL</div>
-            </div>
-
-            <button class="size-btn">
-                select your size <i class="ph ph-arrow-circle-right"></i>
-            </button>
-
-            <div class="other-products">
-                <div class="product">
-                    <img src="./assets/images/product-1.png" alt="">
-                    <p>Lorem ipsum dolor 1.</p>
+            <div class="col product-copy">
+                <div class="product-details">
+                    <p data-text="New brand 2025" class="title">New brand 2025</p>
+                    <br />
+                    <p class="price">$129</p>
+                    <br />
+                    <p>- sundress -</p>
+                    <p>- blazer -</p>
+                    <p>- t-shirt -</p>
+                    <p>- jeans -</p>
+                    <p>- pants -</p>
+                    <p>- linqerie -</p>
+                    <p>- maxi -</p>
+                    <p>show more</p>
                 </div>
-                <div class="product">
-                    <img src="./assets/images/product-2.png" alt="">
-                    <p>Lorem ipsum dolor 2.</p>
+
+                <div class="product-vars">
+                    <img src="./assets/images/img-1.jpg" alt="" />
+                    <img src="./assets/images/img-2.jpg" alt="" />
+                    <img src="./assets/images/img-3.jpg" alt="" />
                 </div>
-                <div class="product">
-                    <img src="./assets/images/product-3.png" alt="">
-                    <p>Lorem ipsum dolor 3.</p>
+
+                <div class="sizes">
+                    <div class="size">XXS</div>
+                    <div class="size">XS</div>
+                    <div class="size">S</div>
+                    <div class="size">M</div>
+                    <div class="size active">L</div>
+                    <div class="size">XL</div>
+                    <div class="size">XXL</div>
                 </div>
-                <div class="product">
-                    <img src="./assets/images/product-4.png" alt="">
-                    <p>Lorem ipsum dolor 4.</p>
+
+                <button class="size-btn">select your size <i class="ph ph-arrow-circle-right"></i></button>
+
+                <div class="other-products">
+                    <div class="product">
+                        <img src="./assets/images/product-1.jpg" alt="" />
+                        <p>Model #437a</p>
+                    </div>
+                    <div class="product">
+                        <img src="./assets/images/product-2.jpg" alt="" />
+                        <p>Model #357c</p>
+                    </div>
+                    <div class="product">
+                        <img src="./assets/images/product-3.jpg" alt="" />
+                        <p>Model #855d</p>
+                    </div>
+                    <div class="product">
+                        <img src="./assets/images/product-4.jpg" alt="" />
+                        <p>Model #253a</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/gsap.min.js"></script>
-    <script src="./assets/js/main.js"></script>
-</body>
-
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/gsap.min.js"></script>
+        <script src="./assets/js/main.js"></script>
+    </body>
 </html>
